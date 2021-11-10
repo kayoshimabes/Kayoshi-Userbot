@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./resources/extras/kenn.gif" width="20px">    RIO - USERBOT    <img src="./resources/extras/kenn.gif" width="20px"></h1>
+# RIO - USERBOT   
     
 
 ![RIO UBOT Logo](https://telegra.ph/file/bf0f71c6a3da0e96c5547.jpg)
