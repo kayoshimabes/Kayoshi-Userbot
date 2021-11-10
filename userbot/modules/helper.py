@@ -13,10 +13,10 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def usit(e):
     await e.edit(
         f"**Hai {DEFAULTUSER} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
-        f"✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)\n"
-        f"✣ **Channel Man :** [Lunatic0de](t.me/Lunatic0de)\n"
-        f"✣ **Owner Repo :** [Risman](t.me/mrismanaziz)\n"
-        f"✣ **Repo :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n"
+        f"✣ **Group Support :** [Sharing](t.me/riogroupsupport)\n"
+        f"✣ **Channel Rio :** [Projects](t.me/rioprojects)\n"
+        f"✣ **Owner Repo :** [Rio](t.me/fckualot)\n"
+        f"✣ **Repo :** [Rio-Userbot](https://github.com/rioprojectx/Rio-UserbotNEW)\n"
     )
 
 
@@ -24,7 +24,7 @@ async def usit(e):
 async def var(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
-        "\n[DAFTAR VARS](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)"
+        "\n[DAFTAR VARS](https://telegra.ph/List-Variabel-Heroku-untuk-Rio-Userbot-09-22)"
     )
 
 
@@ -36,9 +36,9 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `{cmd}listvar`\
         \n  •  **Function : **Melihat Daftar Vars.\
         \n\n  •  **Syntax :** `{cmd}repo`\
-        \n  •  **Function : **Melihat Repository Man-Userbot.\
+        \n  •  **Function : **Melihat Repository Rio-Userbot.\
         \n\n  •  **Syntax :** `{cmd}string`\
-        \n  •  **Function : **Link untuk mengambil String Man-Userbot.\
+        \n  •  **Function : **Link untuk mengambil String Rio-Userbot.\
     "
     }
 )
