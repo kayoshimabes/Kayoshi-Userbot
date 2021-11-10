@@ -21,10 +21,10 @@ from time import sleep
 
 absen = [
     "**Hadir bang** 😁",
-    "**Hadir kak** 😉",
+    "**Saya Hadir** 😉",
     "**Hadir dong** 😁",
     "**Hadir ganteng** 🥵",
-    "**Hadir bro** 😎",
+    "**Hadir Dong** 😎",
     "**Hadir kak maap telat** 🥺",
 ]
 
