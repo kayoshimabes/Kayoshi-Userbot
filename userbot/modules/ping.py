@@ -198,8 +198,7 @@ async def _(pong):
     await pong.edit("█▓░░░░░░░░░\n█▓█▓░░░░░░░\n█▓█▓█▓░░░░░\n█▓█▓█▓█▓░░░\n█▓█▓█▓█▓█▓░\n")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit("
-                    f"┏━━━━━━༻❁༺━━━━━━┓\n   𝙍𝙄𝙊 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 \n┗━━━━━━༻❁༺━━━━━━┛\n"
+    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝙍𝙄𝙊 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 \n┗━━━━━━༻❁༺━━━━━━┛\n"
                     f"[♦] 𝘗𝘐𝘕𝘎 :"
                     f" `%sms` \n"
                     f"[♦] 𝘜𝘗𝘛𝘐𝘔𝘌 :"
