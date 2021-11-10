@@ -45,7 +45,7 @@ LOGS.info(
     f"Jika {ALIVE_NAME} Membutuhkan Bantuan, Silahkan Gabung ke Grup https://t.me/RioGroupSupport"
 )
 
-LOGS.info(f"Rio-Userbot ⚙️ V{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
+LOGS.info(f"Rio-Userbot ⚙️ Last Version [🔥 BERHASIL DIAKTIFKAN! 🔥]")
 
 
 async def autobot():
