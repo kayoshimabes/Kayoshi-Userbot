@@ -72,7 +72,7 @@ async def pingme(pong):
     await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (")
     await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
     end = datetime.now()
-    duration = (end - start).microseconds / 1000
+    duration = (end - start).microseconds / 9000
     await pong.edit(f"┍━━☽【❖】☾━━┑\n       **⌖ PING!**\n┕━━☽【❖】☾━━┙\n"
                     f"\n  ➥ `%sms` \n"
                     f"**𖣘 RIO** "
@@ -127,6 +127,7 @@ async def pingme(pong):
     await pong.edit("**◢◤◢◤◢◤◢◤**")
     await pong.edit("**◢◤◢◤◢◤◢◤◢◤**")
     await pong.edit("**◢◤◢◤◢◤◢◤◢◤◢◤**")
+    duration = (end - start).microseconds / 9000
     await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝗥 𝗜 𝗢 𝗨 𝗦 𝗘 𝗥 𝗕 𝗢 𝗧\n┗━━━━━━༻❁༺━━━━━━┛\n"
                     f":۞:ＰＩＮＧ:"
                     f" `%sms` \n"
@@ -149,6 +150,7 @@ async def pingme(pong):
     await pong.edit("**60% ██████▒▒▒▒**")
     await pong.edit("**80% ████████▒▒**")
     await pong.edit("**100% ██████████**")
+    duration = (end - start).microseconds / 9000
     await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝗥 𝗜 𝗢 𝗨 𝗦 𝗘 𝗥 𝗕 𝗢 𝗧\n┗━━━━━━༻❁༺━━━━━━┛\n"
                     f"**• ꜱɪɴʏᴀʟ :** "
                     f" `%sms`\n"
