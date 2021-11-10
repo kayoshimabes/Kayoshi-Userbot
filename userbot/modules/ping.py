@@ -186,7 +186,7 @@ async def _(speed):
         force_document=False,
     )
 
-
+@bot.on(man_cmd(outgoing=True, pattern=r"pong$"))
 async def _(pong):
     """For .ping command, ping the userbot from any chat."""
     start = datetime.now()
