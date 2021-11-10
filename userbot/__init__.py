@@ -134,8 +134,8 @@ SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
 
 # Support
-GROUP = os.environ.get("GROUP", "SharingUserbot")
-CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
+GROUP = os.environ.get("GROUP", "RioGroupSupport")
+CHANNEL = os.environ.get("CHANNEL", "RioProjects")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -150,9 +150,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/mrismanaziz/Man-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/RioProjectX/Rio-Userbot.git"
 )
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Man-Userbot")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Rio-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -472,10 +472,10 @@ with bot:
                     ],
                     [
                         custom.Button.url(
-                            text="GROUP", url="https://t.me/SharingUserbot"
+                            text="GROUP", url="https://t.me/riogroupsupport"
                         ),
                         custom.Button.url(
-                            text="CHANNEL", url="https://t.me/Lunatic0de"
+                            text="CHANNEL", url="https://t.me/rioprojects"
                         ),
                     ],
                 ],
@@ -497,8 +497,8 @@ with bot:
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Man - Userbot",
-                    url="https://t.me/SharingUserbot",
+                    description="Repository Rio - Userbot",
+                    url="https://t.me/riogroupsupport",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
                     text="**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **UserMode: :** **Owner Repo :** [Rio](https://t.me/fckualot)\n✣ **Support :** @RioGroupSupport\n✣ **Repository :** [Rio-Userbot](https://github.com/RioProjectX/Rio-UserbotNEW)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
