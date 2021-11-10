@@ -24,7 +24,7 @@ async def gen_chlog(repo, diff):
 
 async def print_changelogs(event, ac_br, changelog):
     changelog_str = (
-        f"**✥ Tersedia Pembaruan Untuk [{ac_br}] :\n\n✥ Pembaruan:**\n`{changelog}`"
+        f"**✥ Tersedia Pembaruan Rio-Userbot Untuk [{ac_br}] :\n\n✥ Pembaruan:**\n`{changelog}`"
     )
     if len(changelog_str) > 4096:
         await event.edit("**Changelog terlalu besar, dikirim sebagai file.**")
@@ -58,7 +58,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if heroku_app is None:
             await event.edit(
                 f"{txt}\n"
-                "**Kredensial Heroku tidak valid untuk deploy Man-Userbot dyno.**"
+                "**Kredensial Heroku tidak valid untuk deploy Rio-Userbot dyno.**"
             )
             return repo.__del__()
         try:
@@ -161,7 +161,7 @@ async def upstream(event):
 
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
     if conf == "deploy":
-        await event.edit("`[HEROKU]: Update Deploy Man-Userbot Sedang Dalam Proses...`")
+        await event.edit("`[HEROKU]: Update Deploy Rio-Userbot Sedang Dalam Proses...`")
         await deploy(event, repo, ups_rem, ac_br, txt)
         return
 
