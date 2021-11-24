@@ -24,7 +24,7 @@ async def gen_chlog(repo, diff):
 
 async def print_changelogs(event, ac_br, changelog):
     changelog_str = (
-        f"**✥ Tersedia Pembaruan Rio-Userbot Untuk [{ac_br}] :\n\n✥ Pembaruan:**\n`{changelog}`"
+        f"**✥ Tersedia Pembaruan Kayoshi-Userbot Untuk [{ac_br}] :\n\n✥ Pembaruan:**\n`{changelog}`"
     )
     if len(changelog_str) > 4096:
         await event.edit("**Changelog terlalu besar, dikirim sebagai file.**")
@@ -58,7 +58,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if heroku_app is None:
             await event.edit(
                 f"{txt}\n"
-                "**Kredensial Heroku tidak valid untuk deploy Rio-Userbot dyno.**"
+                "**Kredensial Heroku tidak valid untuk deploy Kayoshi-Userbot dyno.**"
             )
             return repo.__del__()
         try:
@@ -89,7 +89,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         await event.edit(
-            "`Rio-Userbot Berhasil Di Deploy! Userbot bisa di gunakan kembali.`"
+            "`Kayoshi-Userbot Berhasil Di Deploy! Userbot bisa di gunakan kembali.`"
         )
 
     else:
@@ -104,7 +104,7 @@ async def update(event, repo, ups_rem, ac_br):
         ups_rem.pull(ac_br)
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
-    await event.edit("`Rio-Userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`")
+    await event.edit("`Kayoshi-Userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`")
 
     try:
         from userbot.modules.sql_helper.globals import addgvar, delgvar
@@ -161,12 +161,12 @@ async def upstream(event):
 
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
     if conf == "deploy":
-        await event.edit("`[HEROKU]: Update Deploy Rio-Userbot Sedang Dalam Proses...`")
+        await event.edit("`[HEROKU]: Update Deploy Kayoshi-Userbot Sedang Dalam Proses...`")
         await deploy(event, repo, ups_rem, ac_br, txt)
         return
 
     if changelog == "" and not force_update:
-        await event.edit("**✥ Rio-Userbot Sudah Versi Terbaru**")
+        await event.edit("**✥ Kayoshi-Userbot Sudah Versi Terbaru**")
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
