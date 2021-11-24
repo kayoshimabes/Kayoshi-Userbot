@@ -134,8 +134,8 @@ SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
 
 # Support
-GROUP = os.environ.get("GROUP", "RioGroupSupport")
-CHANNEL = os.environ.get("CHANNEL", "RioProjects")
+GROUP = os.environ.get("GROUP", "TurboGroupSupport")
+CHANNEL = os.environ.get("CHANNEL", "TurboMusicChnl")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -150,9 +150,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/RioProjectX/Rio-UserbotNEW.git"
+    "UPSTREAM_REPO_URL", "https://github.com/Kayoshimabes/Kayoshi-Userbot.git"
 )
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Rio-UserbotNEW")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Kayoshi-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -235,11 +235,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", f"Sticker Pack {ALIVE_NAME}")
 
 # Default .alive logo
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/81cb39831b7fa309b56bb.jpg"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/8356664ea078e37078a84.jpg"
 )
 
 INLINE_PIC = (
-    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/81cb39831b7fa309b56bb.jpg"
+    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/8356664ea078e37078a84.jpg"
 )
 
 # Last.fm Module
@@ -452,12 +452,12 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hey**, __I am using__ 🔥 **Rio-Userbot** 🔥\n\n"
+                f"**ʜᴇʏ**, __I am using__ 🔥 **ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ** 🔥\n\n"
                 f"       __Thanks For Using me__\n\n"
-                f"✣ **Userbot Version :** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n"
-                f"✣ **Group Support :** [Diskusi](t.me/riogroupsupport)\n"
-                f"✣ **Owner Repo :** [Rio](t.me/fckualot)\n"
-                f"✣ **Repo :** [Rio-Userbot](https://github.com/RioProjectX/Rio-UserbotNEW)\n"
+                f"✣ **ᴜsᴇʀʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n"
+                f"✣ **ɢʀᴏᴜᴘ sᴜᴘᴘᴏʀᴛ :** [ᴅɪsᴋᴜsɪ](t.me/TurboGroupSupport)\n"
+                f"✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [ɢʟɪᴛᴛᴇʀ](t.me/Biarenakliatnyaaaa)\n"
+                f"✣ **ʀᴇᴘᴏ :** [ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ](https://github.com/Kayoshimabes/Kayoshi-Userbot)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
@@ -466,16 +466,16 @@ with bot:
                 buttons=[
                     [
                         custom.Button.url(
-                            text="⛑ REPO RIO-USERBOT ⛑",
-                            url="https://github.com/RioProjectX/Rio-UserbotNEW",
+                            text="⛑ REPO KAYOSHI-USERBOT ⛑",
+                            url="https://github.com/Kayoshimabes/Kayoshi-Userbot",
                         )
                     ],
                     [
                         custom.Button.url(
-                            text="GROUP", url="https://t.me/riogroupsupport"
+                            text="GROUP", url="https://t.me/TurboGroupSupport"
                         ),
                         custom.Button.url(
-                            text="CHANNEL", url="https://t.me/rioprojects"
+                            text="CHANNEL", url="https://t.me/TurboMusicChnl"
                         ),
                     ],
                 ],
@@ -491,21 +491,21 @@ with bot:
                 result = builder.photo(
                     file=logoman,
                     link_preview=False,
-                    text=f"**✗ Rio-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**✗ ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✗**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` ᴍᴏᴅᴜʟᴇs",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Rio - Userbot",
-                    url="https://t.me/riogroupsupport",
+                    description="ʀᴇᴘᴏsɪᴛᴏʀʏ ᴋᴀʏᴏsʜɪ-ᴜsᴇʀʙᴏᴛ",
+                    url="https://t.me/TurboGroupSupport",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**Rio - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **UserMode: :** **Owner Repo :** [Rio](https://t.me/fckualot)\n✣ **Support :** @RioGroupSupport\n✣ **Repository :** [Rio-Userbot](https://github.com/RioProjectX/Rio-UserbotNEW)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴜsᴇʀᴍᴏᴅᴇ: :** **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)\n✣ **sᴜᴘᴘᴏʀᴛ :** @TurboGroupSupport\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Glitter-Userbot](https://github.com/Kayoshimabes/Kayoshi-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/riogroupsupport"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/TurboGroupSupport"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/RioProjectX/Rio-UserbotNEW"
+                                "ʀᴇᴘᴏ", "https://github.com/Kayoshimabes/Kayoshi-Userbot"
                             ),
                         ],
                     ],
@@ -513,11 +513,11 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✗ Rio-Userbot ✗",
-                    description="Rio - UserBot | Telethon",
-                    url="https://t.me/RioGroupSupport",
+                    title="✗ ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ ✗",
+                    description="ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ | Telethon",
+                    url="https://t.me/TurboGroupSupport",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text=f"**Rio - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {BOT_USERNAME}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @RioGroupSupport\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴜsᴇʀᴍᴏᴅᴇ:** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {BOT_USERNAME}\n➖➖➖➖➖➖➖➖➖➖\n**sᴜᴘᴘᴏʀᴛ:** @TurboGroupSupport\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/riogroupsupport"),
@@ -537,7 +537,7 @@ with bot:
             if event.query.user_id == uid:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, dugmeler, "helpme")
-                text = f"**✗ Rio-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**✗ ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✗**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` ᴍᴏᴅᴜʟᴇs"
                 await event.edit(
                     text,
                     file=logoman,
