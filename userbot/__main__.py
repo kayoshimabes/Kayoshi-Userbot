@@ -42,10 +42,10 @@ for module_name in ALL_MODULES:
     imported_module = import_module("userbot.modules." + module_name)
 
 LOGS.info(
-    f"Jika {ALIVE_NAME} Membutuhkan Bantuan, Silahkan Gabung ke Grup https://t.me/RioGroupSupport"
+    f"Jika {ALIVE_NAME} Membutuhkan Bantuan, Silahkan Gabung ke Grup https://t.me/TurboGroupSupport"
 )
 
-LOGS.info(f"Rio-Userbot ⚙️ Last Version [🔥 BERHASIL DIAKTIFKAN! 🔥]")
+LOGS.info(f"Kayoshi-Userbot ⚙️ Last Version [🔥 BERHASIL DIAKTIFKAN! 🔥]")
 
 
 async def autobot():
@@ -126,7 +126,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @RioProjects✨"
+                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @Biarenakliatnyaaaa✨"
             )
             await bot(InviteToChannelRequest(int(BOTLOG_CHATID), [username]))
             await bot.send_message(
@@ -165,7 +165,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @RioProjects ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @Biarenakliatnyaaaa✨"
         )
         await bot(InviteToChannelRequest(int(BOTLOG_CHATID), [username]))
         await bot.send_message(
@@ -193,8 +193,8 @@ async def man_userbot_on():
         LOGS.info(str(e))
     # KALO LU NGEFORK LINK CH & GRUP PUNYA GUA NYA JANGAN DI HAPUS YA GOBLOK 😡
     try:
-        await bot(JoinChannelRequest("@RioProjects"))
-        await bot(JoinChannelRequest("@RioGroupsupport"))
+        await bot(JoinChannelRequest("@TurboMusicChnl"))
+        await bot(JoinChannelRequest("@TurboGroupSupport"))
     except BaseException:
         pass
 
