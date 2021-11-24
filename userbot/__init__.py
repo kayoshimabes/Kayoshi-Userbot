@@ -197,7 +197,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 ALIVE_TEKS_CUSTOM = os.environ.get("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Rio")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Glitter")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "⚡️")
@@ -222,7 +222,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Rio-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Glitter-Userbot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "1.7.2")
@@ -520,9 +520,9 @@ with bot:
                     text=f"**ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴜsᴇʀᴍᴏᴅᴇ:** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {BOT_USERNAME}\n➖➖➖➖➖➖➖➖➖➖\n**sᴜᴘᴘᴏʀᴛ:** @TurboGroupSupport\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/riogroupsupport"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/TurboGroupSupport"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/RioProjectX/Rio-UserbotNEW"
+                                "ʀᴇᴘᴏ", "https://github.com/Kayoshimabes/Kayoshi-Userbot"
                             ),
                         ],
                     ],
