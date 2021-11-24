@@ -75,7 +75,7 @@ async def pingme(pong):
     duration = (end - start).microseconds / 9000
     await pong.edit(f"┍━━☽【❖】☾━━┑\n       **⌖ PING!**\n┕━━☽【❖】☾━━┙\n"
                     f"\n  ➥ `%sms` \n"
-                    f"**𖣘 RIO** "
+                    f"**𖣘 GLITTER** "
                     f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
     
 
@@ -85,16 +85,16 @@ async def pingme(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("⚡")
-    await pong.edit("__**RIO⚡**__")
-    await pong.edit("__**RI⚡**__")
-    await pong.edit("__**R⚡IO**__")
-    await pong.edit("__**RIO⚡**__")
-    await pong.edit("__**RI⚡O**__")
-    await pong.edit("__**R⚡IO**__")
-    await pong.edit("__**⚡RIO⚡**__")
+    await pong.edit("__**GLITTER⚡**__")
+    await pong.edit("__**GLIT⚡**__")
+    await pong.edit("__**G⚡LITTER**__")
+    await pong.edit("__**GLITTER⚡**__")
+    await pong.edit("__**GLIT⚡TER**__")
+    await pong.edit("__**GLI⚡TTER**__")
+    await pong.edit("__**⚡GLITTER⚡**__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"─━━━⊱༻⚡️༺⊰━━━─\n **     ⚡RIO PING⚡**\n"
+    await pong.edit(f"─━━━⊱༻⚡️༺⊰━━━─\n **     ⚡GLITTER PING⚡**\n"
                     f"⚡ **ᴘɪɴɢ:** "
                     f"`%sms` \n"
                     f"⚡ **ᴏɴʟɪɴᴇ:** "
@@ -128,7 +128,7 @@ async def pingme(pong):
     await pong.edit("**◢◤◢◤◢◤◢◤◢◤**")
     await pong.edit("**◢◤◢◤◢◤◢◤◢◤◢◤**")
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝗥 𝗜 𝗢 𝗨 𝗦 𝗘 𝗥 𝗕 𝗢 𝗧\n┗━━━━━━༻❁༺━━━━━━┛\n"
+    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝗚 𝗟 𝗜 𝗧 𝗧 𝗘 𝗥 𝗨 𝗦 𝗘 𝗥 𝗕 𝗢 𝗧\n┗━━━━━━༻❁༺━━━━━━┛\n"
                     f":۞:ＰＩＮＧ:"
                     f" `%sms` \n"
                     f":۞:ＵＰＴＩＭＥ:"
@@ -151,7 +151,7 @@ async def pingme(pong):
     await pong.edit("**80% ████████▒▒**")
     await pong.edit("**100% ██████████**")
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝗥 𝗜 𝗢 𝗨 𝗦 𝗘 𝗥 𝗕 𝗢 𝗧\n┗━━━━━━༻❁༺━━━━━━┛\n"
+    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝗚 𝗟 𝗜 𝗧 𝗧 𝗘 𝗥 𝗨 𝗦 𝗘 𝗥 𝗕 𝗢 𝗧\n┗━━━━━━༻❁༺━━━━━━┛\n"
                     f"**• ꜱɪɴʏᴀʟ :** "
                     f" `%sms`\n"
                     f"**• ᴏɴʟɪɴᴇ :** "
@@ -173,7 +173,7 @@ async def speedtst(spd):
     result = test.results.dict()
 
     await spd.edit(f"┏━━━━━━━༻❁༺━━━━━━━┓\n"
-                     f"    𝗥 𝗜 𝗢 𝗨 𝗦 𝗘 𝗥 𝗕 𝗢 𝗧 \n"
+                     f"    𝗚 𝗟 𝗜 𝗧 𝗧 𝗘 𝗥 𝗨 𝗦 𝗘 𝗥 𝗕 𝗢 𝗧 \n"
                      f"┣━━━━━━━༻❁༺━━━━━━━┛\n"
                      f"┣ **𝘏𝘈𝘚𝘐𝘓 𝘛𝘌𝘚 :\n**"
                      f"┣ 👤**Dimulai Pada : **\n"
@@ -211,7 +211,7 @@ async def pingme(pong):
     await pong.edit("`𝙋𝙄𝙉𝙂❮❮━━━━━`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝙍𝙄𝙊 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 \n┗━━━━━━༻❁༺━━━━━━┛\n"
+    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝙂𝙇𝙄𝙏𝙏𝙀𝙍 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 \n┗━━━━━━༻❁༺━━━━━━┛\n"
                                  f"✘ 𝙋𝙄𝙉𝙂! : `%sms`" % (duration))
     
 @register(outgoing=True, pattern="^.kping$")
@@ -231,7 +231,7 @@ async def pingme(pong):
     sleep(1)
     await pong.edit("█▓░░░░░░░░░\n█▓█▓░░░░░░░\n█▓█▓█▓░░░░░\n█▓█▓█▓█▓░░░\n█▓█▓█▓█▓█▓░\n")
     sleep(1)
-    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝙍𝙄𝙊 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 \n┗━━━━━━༻❁༺━━━━━━┛\n"
+    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n   𝙂𝙇𝙄𝙏𝙏𝙀𝙍 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 \n┗━━━━━━༻❁༺━━━━━━┛\n"
                     f"[♦] 𝘗𝘐𝘕𝘎 :"
                     f" `%sms` \n"
                     f"[♦] 𝘜𝘗𝘛𝘐𝘔𝘌 :"
