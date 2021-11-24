@@ -13,10 +13,10 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def usit(e):
     await e.edit(
         f"**Hai {DEFAULTUSER} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
-        f"✣ **Group Support :** [Sharing](t.me/riogroupsupport)\n"
-        f"✣ **Channel Rio :** [Projects](t.me/rioprojects)\n"
-        f"✣ **Owner Repo :** [Rio](t.me/fckualot)\n"
-        f"✣ **Repo :** [Rio-Userbot](https://github.com/rioprojectx/Rio-UserbotNEW)\n"
+        f"✣ **ɢʀᴏᴜᴘ sᴜᴘᴘᴏʀᴛ :** [Sharing](t.me/TurboGroupSupport)\n"
+        f"✣ **ᴄʜᴀɴɴᴇʟ ɢʟɪᴛᴛᴇʀ :** [Projects](t.me/TurboMusicChnl)\n"
+        f"✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [Glitter](t.me/Biarenakliatnyaaaa)\n"
+        f"✣ **ʀᴇᴘᴏ :** [Kayoshi-Userbot](https://github.com/Kayoshimabes/Kayoshi-Userbot)\n"
     )
 
 
