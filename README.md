@@ -1,7 +1,7 @@
-# RIO - USERBOT   
+# KAYOSHI - USERBOT   
     
 
-![RIO UBOT Logo](https://telegra.ph/file/bf0f71c6a3da0e96c5547.jpg)
+![RIO UBOT Logo](https://telegra.ph/file/b43f7c8ce66bdc6ee93fc.jpg)
 
 <p align="center">
     <a href="https://github.com/RioProjectX/Rio-Userbot/commits/Rio-Userbot"><img src="https://img.shields.io/github/last-commit/RioProjectX/Rio-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
@@ -19,8 +19,8 @@ mengelola grup secara efisien dan mengotomatiskan beberapa hal yang membosankan.
 Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 ```
 
-### Repo Rio Userbot
-Repo Yang Dibuat Oleh [Rio](https://t.me/riio00) Dari beberapa Repo Yang Ada Di Github. 
+### Repo Kayoshi Userbot
+Repo Yang Dibuat Oleh [Kayoshi](https://t.me/Kayoshineey) Dari beberapa Repo Yang Ada Di Github. 
 
 
 ### Generate String Using Replit⤵️
@@ -29,7 +29,7 @@ Repo Yang Dibuat Oleh [Rio](https://t.me/riio00) Dari beberapa Repo Yang Ada Di 
 
 
 ## DEPLOY TO HEROKU <img src="./resources/extras/Kenpurple.gif" width="40px">
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/RioProjectX/Rio-UserbotNEW/tree/Rio-Userbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="250" height="38.60" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Kayoshimabes/Kayoshi-Userbot/tree/Rio-Userbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="250" height="38.60" /></a></p>
 
 
   <b>© Credits</b></summary>
