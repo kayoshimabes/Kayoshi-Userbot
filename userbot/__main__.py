@@ -45,7 +45,7 @@ LOGS.info(
     f"Jika {ALIVE_NAME} Membutuhkan Bantuan, Silahkan Gabung ke Grup https://t.me/TurboGroupSupport"
 )
 
-LOGS.info(f"Kayoshi-Userbot ⚙️ Last Version [🔥 BERHASIL DIAKTIFKAN! 🔥]")
+LOGS.info(f"ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ ⚙️ ʟᴀsᴛ ᴠᴇʀsɪᴏɴ [🔥 BERHASIL DIAKTIFKAN! 🔥]")
 
 
 async def autobot():
@@ -126,7 +126,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @Biarenakliatnyaaaa✨"
+                bf, f"✨ ᴏᴡɴᴇʀ ~ {who.first_name} ✨\n\n✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ~ @Biarenakliatnyaaaa✨"
             )
             await bot(InviteToChannelRequest(int(BOTLOG_CHATID), [username]))
             await bot.send_message(
@@ -165,7 +165,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @Biarenakliatnyaaaa✨"
+            bf, f"✨ ᴏᴡɴᴇʀ ~ {who.first_name} ✨\n\n✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ~ @Biarenakliatnyaaaa✨"
         )
         await bot(InviteToChannelRequest(int(BOTLOG_CHATID), [username]))
         await bot.send_message(
@@ -187,7 +187,7 @@ async def man_userbot_on():
         if BOTLOG_CHATID != 0:
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"🔥 **Rio-Userbot Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n➠ **Ketik** `{cmd}alive` **untuk Mengecheck Bot**\n━━",
+                f"🔥 **ɢʟɪᴛᴛᴇʀ-ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ**\n━━\n➠ **ᴜsᴇʀʙᴏᴛ ᴠᴇʀsɪᴏɴ -** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n➠ **ᴋᴇᴛɪᴋ** `{cmd}alive` **ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴄʜᴇᴄᴋ ʙᴏᴛ**\n━━",
             )
     except Exception as e:
         LOGS.info(str(e))
